@@ -1,0 +1,78 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+#carousel-inner{
+    margin: auto;
+}
+#demo.carousel-item{
+    height:100em;
+    width:auto;
+}
+
+.image {
+    background-image: url("https://w0.peakpx.com/wallpaper/576/383/HD-wallpaper-up-in-the-air-nike-nike-air-nike-shoes-shoes-thumbnail.jpg");
+    opacity: 35%;
+    height: 150px;
+}
+* {
+    box-sizing: border-box;
+}
+.imageColumn {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+.header {
+    padding-top: 50px;
+    color: white;
+    font-size:35px;
+    text-align: center;
+}
+a{
+
+    color: black;
+}
+
+a:hover{
+    color:dimgrey;
+
+}
+aside img{
+
+    width: 10%;
+    opacity: 75%;
+    margin: inherit;
+    display: block;
+    float: right;
+    padding: 1%;
+
+}
+#magnifying_img{
+    width: 60%;
+    height:70%;
+}
+button{
+}
+aside img:hover{
+
+    box-shadow: 2px 2px grey;
+    border:solid;
+}
+
+section img {
+
+    width: 70%;
+    height: 60%;
+    float: left;
+}

@@ -1,0 +1,90 @@
+
+/**
+
+css for button on the product.html page
+ */
+.addtocart{
+     display:block;
+     padding:0.5em 1em 0.5em 1em;
+     border-radius:100px;
+     border:none;
+     font-size:2em;
+     position:relative;
+     background:lightslategrey;
+     cursor:pointer;
+     //height:0.5em;
+     width:50%;
+     overflow:hidden;
+     transition:transform 0.1s;
+     z-index:1;
+ }
+.addtocart:hover{
+    transform:scale(1.1);
+}
+.pretext{
+    color:#fff;
+    background:lightslategrey;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.done{
+    background:#be2edd;
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+    transition:transform 0.3s ease;
+
+    transform:translate(-110%) skew(-40deg);
+}
+.posttext{
+    background:#be2edd;
+}
+.fa-check{
+    background:#be2edd;
+}
+
+/*
+css for the cards in streetwear.html
+ */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin: 10px;
+
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-info {
+    padding: 10px;
+}
+
+.card-info h2 {
+    margin: 0;
+}
+
+.card-info p {
+    margin: 10px 0;
+}
+
+.card-info a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+
